@@ -6,6 +6,7 @@ import News from './pages/News';
 import Salle from './pages/Salle';
 import Emploi_du_temps from './pages/Emploi_du_temps';
 import Login from './pages/Login';
+import Home from './pages/Home';
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Layout />}>
-            <Route index element={<News />} />
+            <Route index element={<Home />} />
             <Route path='Salle' element={<Salle />} />
             <Route path='Emploi_du_temps' element={<Emploi_du_temps />} />
             <Route path='Login' element={<Login />} />
