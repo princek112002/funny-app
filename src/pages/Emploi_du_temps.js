@@ -9,6 +9,9 @@ const Emploi_du_temps = () => {
       <th>Niveau</th>
       <th>Horaire</th>
       </thead>
+      <tbody>
+        <td>Licence 1</td>
+      </tbody>
     </div>
   );
 };
