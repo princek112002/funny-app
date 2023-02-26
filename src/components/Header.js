@@ -18,7 +18,7 @@ const Header = () => {
                   <Link>
                     <img src='images/homepage.png' alt='homeicons' />
                   </Link>
-                  <NavLink className='links' to='./News'>News</NavLink>
+                  <NavLink className='links' to='/'>News</NavLink>
                   <NavLink className='links' to='/'>Salle</NavLink>
                   <NavLink className='links' to='./Emploi_du_temps'>Emploi_du_temps</NavLink>
                 </div>
