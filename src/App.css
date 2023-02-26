@@ -134,21 +134,7 @@ a
   color: var(--color-777777);
 }
 
-.buttom
-{
-  background-color: var(--color-232f3e);
-  padding: 12px;
-  border-radius: 50px;
-  color: white;
-  font-weight: 400;
-}
 
-.buttom:hover
-{
-  background-color: var(--color-ededed);
-  color: var(--color-bf4800);
-  transition: .7s;
-}
 /* Blog end here */
 
 /* Product card start here */
@@ -160,42 +146,6 @@ a
   overflow: hidden;
 }
 
-.product-card:hover .action-bar
-{
-  right: 15px;
-}
-
-.product-card .product-details h6
-{
-  color: var(--color-bf4800);
-  font-size: 13px;
-}
-
-.product-card .product-title h5
-{
-  color: var(--color-131921);
-  font-size: 15px;
-}
-
-.product-card .produit-price p
-{
-  font-size: 16px;
-  color: var(--color-131921);
-
-}
-
-.action-bar
-{
-  top: 10%;
-  right: -23px;
-  transition: .3s;
-}
-
-.wishlist-icon
-{
-  top: 2%;
-  right: 20px;
-}
 /* product card end here */
 
 
