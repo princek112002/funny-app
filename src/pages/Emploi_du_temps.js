@@ -8,29 +8,36 @@ const Emploi_du_temps = () => {
         <thead>
           <tr>
             <th>NIVEAU</th>
-            <th>Nom</th>
-            <th>Prénom</th>
-            <th>Age</th>
+            <th>Horaires</th>
+            <th>Lundi</th>
+            <th>Mardi</th>
+            <th>Mercredi</th>
+            <th>Jeudi</th>
+            <th>Vendredi</th>
+            <th>Samedi</th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <th></th>
-            <td>Giraud</td>
-            <td>Pierre</td>
-            <td>28</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <th></th>
+            <td></td>
+            <td></td>
+            <td></td>
           </tr>
           <tr>
+          <th></th>
+          <th></th>
+            <td></td>
+            <td></td>
+            <td></td>
             <th></th>
-            <td>Durand</td>
-            <td>Victor</td>
-            <td>26</td>
-          </tr>
-          <tr>
-            <th></th>
-            <td>Joly</td>
-            <td>Julia</td>
-            <td>27</td>
+            <td></td>
+            <td></td>
+            <td></td>
           </tr>
         </tbody>
       </table>
