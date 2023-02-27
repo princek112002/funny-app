@@ -81,6 +81,26 @@ a
 }
 /* Header bottom end here */
 
+/* Footer start here */
+
+footer
+{
+  background-color: var(--color-232f3e);
+}
+
+footer:not(:nth-child(1))
+{
+  border-top: 1px solid var(--color-3b4149);
+}
+
+footer .input-group-text
+{
+  background-color: var(--color-232f3e);
+  color: white;
+  padding: 8px 17px;
+}
+
+/* Footer end here */
 
 
 /* Blog start here */
