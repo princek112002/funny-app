@@ -19,7 +19,7 @@ const Emploi_du_temps = () => {
         </thead>
         <tbody class="table-container">
           <tr>
-            <th class="niveau"><a href='/Emploi_du_temps'>Licence 1</a>
+            <th ><a href='/Emploi_du_temps' class="niveau">Licence 1</a>
             <div><a href='/Emploi_du_temps'>Groupe A</a><br></br></div>
             <div><a href='/Emploi_du_temps'>Groupe B</a></div>
             </th>
@@ -32,9 +32,9 @@ const Emploi_du_temps = () => {
             <td></td>
           </tr>
           <tr>
-          <th class="niveau"><a href='/Emploi_du_temps'>Licence 2</a>
-          <div><a href='/'>Groupe A</a><br></br></div>
-          <div><a href='/'>Groupe B</a></div>
+          <th ><a href='/Emploi_du_temps' class="niveau">Licence 2</a>
+          <div><a href='/' class="niveau">Groupe A</a><br></br></div>
+          <div><a href='/' class="niveau">Groupe B</a></div>
           </th>
             <td></td>
             <td></td>
@@ -44,7 +44,7 @@ const Emploi_du_temps = () => {
             <td></td>
           </tr>
           <tr>
-          <th class="niveau"><a href='/'>Licence 3</a></th>
+          <th><a href='/' class="niveau">Licence 3</a></th>
             <td></td>
             <td></td>
             <td></td>
@@ -53,7 +53,7 @@ const Emploi_du_temps = () => {
             <td></td>
           </tr>
           <tr>
-          <th class="niveau"><a href='/'>Master 1</a></th>
+          <th ><a href='/' class="niveau">Master 1</a></th>
             <td></td>
             <td></td>
             <td></td>
