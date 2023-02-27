@@ -42,11 +42,47 @@ a
 }
 
 
-/*Header start here */
+/* Header top start here*/
 
-.header-upper
+/* Header top end here*/ 
+
+
+/*Header bottom start here */
+.menu-links
 {
-  background-color: var(--color-131921);
+  margin-left: 300%;
 }
 
-/* Header end here */
+.menu-links img
+{
+  width: 30px;
+  height: 30px;
+}
+
+.menu-links .links
+{
+  font-size: 23px;
+  font-weight: 500;
+  color: var(--color-777777);
+}
+
+.logo
+{
+  background-color: var(--color-ededed);
+  padding: 10px;
+  border-bottom-left-radius: 45px;
+  border-bottom-right-radius: 45px;
+  border-top-right-radius: 45px;
+}
+
+.head-title
+{
+  color: var(--color-febd69);
+}
+/* Header bottom end here */
+
+
+
+/* Home contaent start here*/
+
+/* Home contaent end here*/
