@@ -6,7 +6,7 @@ const Emploi_du_temps = () => {
       <h2 class="title">Emploi du temps<br></br></h2>
       <table class="table table-bordered">
         <thead>
-          <tr>
+          <tr class="niveau" >
             <th>NIVEAU</th>
             <th>Horaires</th>
             <th>Lundi</th>
