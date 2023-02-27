@@ -172,3 +172,23 @@ footer .input-group-text
 /* Home contaent start here*/
 
 /* Home contaent end here*/
+
+
+/*Emploi_du_temps start here*/
+
+.title{
+  padding-top: 50px;
+  padding-bottom: 30px;
+  font-size: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+}
+.niveau{
+  color:var(--bs-dark);;
+}
+th{
+  color: var(--bs-dark);;
+}
+tbody .table table-bordered{
+  color: var(--bs-dark);
+}
