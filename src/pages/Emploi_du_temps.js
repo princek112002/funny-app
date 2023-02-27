@@ -20,8 +20,8 @@ const Emploi_du_temps = () => {
         <tbody>
           <tr>
             <th ><a href='/Emploi_du_temps'>Licence 1</a>
-            <div><a href='/'>Groupe A</a><br></br></div>
-            <div><a href='/'>Groupe B</a></div>
+            <div><a href='/Emploi_du_temps'>Groupe A</a><br></br></div>
+            <div><a href='/Emploi_du_temps'>Groupe B</a></div>
             </th>
             <td></td>
             <td></td>
@@ -32,7 +32,7 @@ const Emploi_du_temps = () => {
             <td></td>
           </tr>
           <tr>
-          <th><a href='/'>Licence 2</a>
+          <th><a href='/Emploi_du_temps'>Licence 2</a>
           <div><a href='/'>Groupe A</a><br></br></div>
           <div><a href='/'>Groupe B</a></div>
           </th>
