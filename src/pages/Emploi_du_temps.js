@@ -20,8 +20,8 @@ const Emploi_du_temps = () => {
         <tbody class="table-container">
           <tr>
             <th ><a href='/Emploi_du_temps' class="niveau">Licence 1</a>
-            <div><a href='/Emploi_du_temps'>Groupe A</a><br></br></div>
-            <div><a href='/Emploi_du_temps'>Groupe B</a></div>
+            <div><a href='/Emploi_du_temps' class="niveau">Groupe A</a><br></br></div>
+            <div><a href='/Emploi_du_temps' class="niveau">Groupe B</a></div>
             </th>
             <td></td>
             <td></td>
@@ -62,7 +62,7 @@ const Emploi_du_temps = () => {
             <td></td>
           </tr>
           <tr>
-          <th ><a href='/'>Master 2</a></th>
+          <th ><a href='/' class="niveau">Master 2</a></th>
             <td></td>
             <td></td>
             <td></td>
@@ -73,12 +73,12 @@ const Emploi_du_temps = () => {
           <tr>
           <th></th>
             <td></td>
-            <td><a href='/'>Semaine 1</a></td>
-            <td><a href='/'>Semaine 2</a></td>
-            <td><a href='/'>Semaine 3</a></td>
-            <td><a href='/'>Semaine 4</a></td>
-            <td><a href='/'>Semaine 5</a></td>
-            <td><a href='/'>Semaine 6</a></td>
+            <td><a href='/' class="niveau">Semaine 1</a></td>
+            <td><a href='/' class="niveau">Semaine 2</a></td>
+            <td><a href='/' class="niveau">Semaine 3</a></td>
+            <td><a href='/' class="niveau">Semaine 4</a></td>
+            <td><a href='/' class="niveau">Semaine 5</a></td>
+            <td><a href='/' class="niveau">Semaine 6</a></td>
           </tr>
           <tr></tr>
         </tbody>
