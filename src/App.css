@@ -185,10 +185,7 @@ footer .input-group-text
 }
 .niveau{
   color:black;
-}
-th{
-  color: var(--bs-dark);;
-}
-tbody .table table-bordered{
-  color: var(--bs-dark);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  font-size: 20px;
 }
