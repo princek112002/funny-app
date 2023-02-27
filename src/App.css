@@ -184,7 +184,7 @@ footer .input-group-text
   font-weight: bold;
 }
 .niveau{
-  color:var(--bs-dark);;
+  color:black;
 }
 th{
   color: var(--bs-dark);;
