@@ -20,8 +20,8 @@ const Emploi_du_temps = () => {
         <tbody class="table-container">
           <tr>
             <th ><a href='/Emploi_du_temps' class="niveau">Licence 1</a>
-            <div><a href='/Emploi_du_temps' class="niveau">Groupe A</a><br></br></div>
-            <div><a href='/Emploi_du_temps' class="niveau">Groupe B</a></div>
+            <div><a href='/Emploi_du_temps' class="niveau">* Groupe A</a><br></br></div>
+            <div><a href='/Emploi_du_temps' class="niveau">* Groupe B</a></div>
             </th>
             <td></td>
             <td></td>
@@ -33,8 +33,8 @@ const Emploi_du_temps = () => {
           </tr>
           <tr>
           <th ><a href='/Emploi_du_temps' class="niveau">Licence 2</a>
-          <div><a href='/' class="niveau">Groupe A</a><br></br></div>
-          <div><a href='/' class="niveau">Groupe B</a></div>
+          <div><a href='/' class="niveau">* Groupe A</a><br></br></div>
+          <div><a href='/' class="niveau">* Groupe B</a></div>
           </th>
             <td></td>
             <td></td>
@@ -83,6 +83,11 @@ const Emploi_du_temps = () => {
           <tr></tr>
         </tbody>
       </table>
+      <div class="container-sm">100% wide until small breakpoint</div>
+<div class="container-md">100% wide until medium breakpoint</div>
+<div class="container-lg">100% wide until large breakpoint</div>
+<div class="container-xl">100% wide until extra large breakpoint</div>
+<div class="container-xxl">100% wide until extra extra large breakpoint</div>
     </div>
   );
 };
